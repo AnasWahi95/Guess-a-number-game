@@ -8,7 +8,7 @@ if "randomNum" not in st.session_state:
     st.session_state.game_over = False
     st.session_state.name = ""
 
-st.title("🕹 Guess a Number Game")
+st.title("🔢 Guess a Number Game")
 
 # Ask for name
 if st.session_state.name == "":
